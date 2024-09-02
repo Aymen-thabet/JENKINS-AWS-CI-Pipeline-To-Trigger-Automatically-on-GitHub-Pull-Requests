@@ -2,6 +2,8 @@ The idea is to create a Jenkins Continuous Integration (CI) Pipeline To Trigger 
 
 ![Capture d'écran 2024-09-02 224223](https://github.com/user-attachments/assets/c2055c1a-7075-4697-9219-81dc36ddaf46)
 
+The link to the Simple java app : https://github.com/Aymen-thabet/simple-java-app
+
 ![Capture d'écran 2024-09-02 231836](https://github.com/user-attachments/assets/87dd8cd3-91ef-4e81-a53e-37bcfe17a271)
 
 First step is to access EC2 instance through SSH and install Java and maven 
