@@ -7,14 +7,17 @@ Then install Jenkins on the instance following the instructions here : https://w
 
 Then Accessing Jenkins Dashboard using public EC2 instance ip 
 
-![Capture d'écran 2024-09-02 224223](https://github.com/user-attachments/assets/6f5e2341-4446-462f-bdb4-78f8ac7be965)
+![image](https://github.com/user-attachments/assets/49a87a92-1580-4e29-ac9b-1f60e6654a73)
+
+![image](https://github.com/user-attachments/assets/a2df9e5c-7c54-4aa3-a54d-5a6b3203037f)
+
 
 Then on the Jenkins Server : 
 1) Install GitHub pull Request Builder Plugin : 
 
 ![Capture d'écran 2024-09-02 203347](https://github.com/user-attachments/assets/f69ab40b-7dfc-4f69-bed2-a5b51c014111)
 
-Then Create a acces token from github to use it on the plugin , 
+Then Create an acces token from github to use it on the plugin , 
 
 Note that the credentials of the plugin should be a secret text type containing the .pem Key used to acces EC2 instance through SSH !
 
@@ -64,7 +67,7 @@ Making sure the webhook is successfuly connected to the jenkins server :
 
 *Script path should be the exact name of the jenkinsfile since its in the main repo*
 
-Then testing the pipeline : 
+Then testing the pipeline with a simple build : 
 
 ![Capture d'écran 2024-09-02 220106](https://github.com/user-attachments/assets/dff01048-03bf-45ab-8464-41a58036db36)
 
@@ -89,6 +92,8 @@ commiting the changes and pushing to github :
 *new changes*
 
 CI pipeline Working succesfuly and automated a Build !
+
+![Capture d'écran 2024-09-02 222003](https://github.com/user-attachments/assets/b7c2b88f-0ed3-4365-a1e5-27af380b462b)
 
 ![Capture d'écran 2024-09-02 222046](https://github.com/user-attachments/assets/96563851-ea54-49b6-91e8-45078870e0b0)
 
